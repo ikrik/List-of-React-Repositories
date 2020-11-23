@@ -5,11 +5,11 @@
 In this project you can find all github repositories that have to do with React and its ecosystem.
 It is implemented by using **Create-React-App, Typescript, React Hooks & React Context API**.
 
-The data is being fetch by using **Graphql & Apollo** and code is being tested using **Jest & Enzyme**
+The data is being fetch by using **Graphql & Apollo** and code is being tested using **Jest & Enzyme**.
 
 ### Getting Started
 
-Once you have cloned the repo to your local file system Use the yarn package manager to install all dependecies.
+Once you have cloned the repo to your local file system use yarn package manager to install all dependecies.
 
 ```bash
  yarn
@@ -21,7 +21,7 @@ Once you have cloned the repo to your local file system Use the yarn package man
  npm install
 ```
 
-After installion you will need to create a `.env.local` file where you should add your github token as the example above.
+After installion you will need to create a `.env.local` file where you should add your github token as the example below.
 
 ```
 REACT_APP_GITHUB_TOKEN=<YOUR_TOKEN_HERE>
