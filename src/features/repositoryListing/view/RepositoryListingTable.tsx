@@ -1,9 +1,13 @@
 import * as React from 'react'
 
 import { Caption, Table, Thead, Tr, Th, Tbody, Td } from '@bootstrap-styled/v4'
+
+import * as Icons from '../../../common/assets/icons/Icons'
 import { RepositoryListingDescriptor } from '../model'
 import { RepositoryListingContext } from '../providers/RepositoryListingProvider'
 import repositoryListingDescriptors from './descriptors/repositoryListingDescriptors'
+
+import FullScreenLoader from '../../../common/components/FullScreenLoader'
 
 type RepositoryListingKeys = Pick<RepositoryListingDescriptor, 'forkCount' | 'name' | 'stargazerCount'>
 
@@ -13,7 +17,7 @@ const RepositoryListingTable: React.FunctionComponent = () => {
   return (
     <>
       {isRepositoryListLoading ? (
-        <p>Loading...</p>
+        <FullScreenLoader />
       ) : (
         <Table>
           <Caption>List of Github React Repositories</Caption>
@@ -22,6 +26,13 @@ const RepositoryListingTable: React.FunctionComponent = () => {
               {Object.keys(repositoryListingDescriptors).map((k) => {
                 return (
                   <Th key={repositoryListingDescriptors[k as keyof RepositoryListingKeys].label}>
+                    {(k as keyof RepositoryListingKeys) === 'forkCount' ? (
+                      <Icons.Fork style={{ verticalAlign: 'sub' }} />
+                    ) : (k as keyof RepositoryListingKeys) === 'stargazerCount' ? (
+                      <Icons.Stargazer fillColor={'#fbcc32'} style={{ verticalAlign: 'sub' }} />
+                    ) : (
+                      ''
+                    )}
                     {repositoryListingDescriptors[k as keyof RepositoryListingKeys].label}
                   </Th>
                 )
