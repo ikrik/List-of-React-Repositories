@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Repository table List data tests renders empty state when repository List data is not yet fetched 1`] = `
+<table
+  class="Table-oyilxr-0 jQhyhB table"
+>
+  <caption
+    class="Caption-sc-1miu1rz-0 eQOCZM"
+  >
+    List of Github React Repositories
+  </caption>
+  <thead
+    class=""
+  >
+    <tr
+      class="table-active"
+    >
+      <th
+        class=""
+      >
+        
+        Name
+      </th>
+      <th
+        class=""
+      >
+        <svg
+          height="24px"
+          style="vertical-align: sub;"
+          version="1.1"
+          viewBox="0 0 24 24"
+          width="24px"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <g
+            data-name="Layer 2"
+          >
+            <g
+              data-name="star"
+            >
+              <rect
+                height="24"
+                opacity="0"
+                transform="rotate(90 12 12)"
+                width="24"
+              />
+              <path
+                d="M17.56 21a1 1 0 0 1-.46-.11L12 18.22l-5.1 2.67a1 1 0 0 1-1.45-1.06l1-5.63-4.12-4a1 1 0 0 1-.25-1 1 1 0 0 1 .81-.68l5.7-.83 2.51-5.13a1 1 0 0 1 1.8 0l2.54 5.12 5.7.83a1 1 0 0 1 .81.68 1 1 0 0 1-.25 1l-4.12 4 1 5.63a1 1 0 0 1-.4 1 1 1 0 0 1-.62.18z"
+                fill="#fbcc32"
+              />
+            </g>
+          </g>
+        </svg>
+        Stars
+      </th>
+      <th
+        class=""
+      >
+        <svg
+          height="24px"
+          style="vertical-align: sub;"
+          version="1.1"
+          viewBox="0 0 24 24"
+          width="24px"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <path
+            d="M17,6.06a3,3,0,0,0-1.15,5.77A2,2,0,0,1,14,13.06H10a3.91,3.91,0,0,0-2,.56V7.88a3,3,0,1,0-2,0v8.36a3,3,0,1,0,2.16.05A2,2,0,0,1,10,15.06h4a4,4,0,0,0,3.91-3.16A3,3,0,0,0,17,6.06Zm-10-2a1,1,0,1,1-1,1A1,1,0,0,1,7,4.06Zm0,16a1,1,0,1,1,1-1A1,1,0,0,1,7,20.06Zm10-10a1,1,0,1,1,1-1A1,1,0,0,1,17,10.06Z"
+          />
+        </svg>
+        Forks
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    class="Tbody-sc-14l4jy7-0"
+  />
+</table>
+`;

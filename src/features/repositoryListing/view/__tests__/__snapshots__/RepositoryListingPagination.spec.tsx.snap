@@ -1,0 +1,276 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Manual Inputs > Trade Op main view component tests renders nothing when totalPages is zero 1`] = `
+<RepositoryListingPagination
+  disableNextPage={false}
+  disablePreviousPage={false}
+  nextPage={[MockFunction]}
+  pageNumber={1}
+  previousPage={[MockFunction]}
+  totalPages={0}
+/>
+`;
+
+exports[`Manual Inputs > Trade Op main view component tests renders pagination when totalPage is bigger than 0 1`] = `
+<RepositoryListingPagination
+  disableNextPage={false}
+  disablePreviousPage={false}
+  nextPage={[MockFunction]}
+  pageNumber={1}
+  previousPage={[MockFunction]}
+  totalPages={5}
+>
+  <styled.div>
+    <div
+      className="sc-bdfBwQ gzcNY"
+    >
+      <styled.div>
+        <div
+          className="sc-gsTCUz hLsmvg"
+        >
+          <Button
+            color="primary"
+            disabled={false}
+            focus={false}
+            hover={false}
+            onClick={[MockFunction]}
+            tag="button"
+            theme={
+              Object {
+                "$btn-active-box-shadow": "inset 0 3px 5px rgba(0, 0, 0, 0.125)",
+                "$btn-block-spacing-y": ".5rem",
+                "$btn-border-radius": ".25rem",
+                "$btn-border-radius-lg": ".3rem",
+                "$btn-border-radius-sm": ".2rem",
+                "$btn-border-width": "1px",
+                "$btn-box-shadow": "inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075)",
+                "$btn-danger-bg": "#d9534f",
+                "$btn-danger-border": "#d9534f",
+                "$btn-danger-color": "#fff",
+                "$btn-focus-box-shadow": "0 0 0 2px rgba(2, 117, 216, 0.25)",
+                "$btn-info-bg": "#5bc0de",
+                "$btn-info-border": "#5bc0de",
+                "$btn-info-color": "#fff",
+                "$btn-line-height": "1.25",
+                "$btn-link-disabled-color": "#636c72",
+                "$btn-padding-x": "1rem",
+                "$btn-padding-x-lg": "1.5rem",
+                "$btn-padding-x-sm": ".5rem",
+                "$btn-padding-y": ".5rem",
+                "$btn-padding-y-lg": ".75rem",
+                "$btn-padding-y-sm": ".25rem",
+                "$btn-primary-bg": "#0275d8",
+                "$btn-primary-border": "#0275d8",
+                "$btn-primary-color": "#fff",
+                "$btn-secondary-bg": "#fff",
+                "$btn-secondary-border": "#ccc",
+                "$btn-secondary-color": "#292b2c",
+                "$btn-success-bg": "#5cb85c",
+                "$btn-success-border": "#5cb85c",
+                "$btn-success-color": "#fff",
+                "$btn-transition": "all .2s ease-in-out",
+                "$btn-warning-bg": "#f0ad4e",
+                "$btn-warning-border": "#f0ad4e",
+                "$btn-warning-color": "#fff",
+                "$enable-hover-media-query": true,
+                "$enable-rounded": true,
+                "$enable-shadows": false,
+                "$enable-transitions": true,
+              }
+            }
+          >
+            <ButtonUnstyled
+              className="Button-h8watj-0 csWZDI"
+              color="primary"
+              disabled={false}
+              focus={false}
+              hover={false}
+              onClick={[MockFunction]}
+              tag="button"
+              theme={
+                Object {
+                  "$btn-active-box-shadow": "inset 0 3px 5px rgba(0, 0, 0, 0.125)",
+                  "$btn-block-spacing-y": ".5rem",
+                  "$btn-border-radius": ".25rem",
+                  "$btn-border-radius-lg": ".3rem",
+                  "$btn-border-radius-sm": ".2rem",
+                  "$btn-border-width": "1px",
+                  "$btn-box-shadow": "inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075)",
+                  "$btn-danger-bg": "#d9534f",
+                  "$btn-danger-border": "#d9534f",
+                  "$btn-danger-color": "#fff",
+                  "$btn-focus-box-shadow": "0 0 0 2px rgba(2, 117, 216, 0.25)",
+                  "$btn-info-bg": "#5bc0de",
+                  "$btn-info-border": "#5bc0de",
+                  "$btn-info-color": "#fff",
+                  "$btn-line-height": "1.25",
+                  "$btn-link-disabled-color": "#636c72",
+                  "$btn-padding-x": "1rem",
+                  "$btn-padding-x-lg": "1.5rem",
+                  "$btn-padding-x-sm": ".5rem",
+                  "$btn-padding-y": ".5rem",
+                  "$btn-padding-y-lg": ".75rem",
+                  "$btn-padding-y-sm": ".25rem",
+                  "$btn-primary-bg": "#0275d8",
+                  "$btn-primary-border": "#0275d8",
+                  "$btn-primary-color": "#fff",
+                  "$btn-secondary-bg": "#fff",
+                  "$btn-secondary-border": "#ccc",
+                  "$btn-secondary-color": "#292b2c",
+                  "$btn-success-bg": "#5cb85c",
+                  "$btn-success-border": "#5cb85c",
+                  "$btn-success-color": "#fff",
+                  "$btn-transition": "all .2s ease-in-out",
+                  "$btn-warning-bg": "#f0ad4e",
+                  "$btn-warning-border": "#f0ad4e",
+                  "$btn-warning-color": "#fff",
+                  "$enable-hover-media-query": true,
+                  "$enable-rounded": true,
+                  "$enable-shadows": false,
+                  "$enable-transitions": true,
+                }
+              }
+            >
+              <button
+                className="Button-h8watj-0 csWZDI btn btn-primary"
+                onClick={[Function]}
+                type="button"
+              >
+                Previous Page
+              </button>
+            </ButtonUnstyled>
+          </Button>
+        </div>
+      </styled.div>
+      <styled.div>
+        <div
+          className="sc-dlfnbm dPRurm"
+        >
+          1
+          /
+          5
+           pages
+        </div>
+      </styled.div>
+      <styled.div>
+        <div
+          className="sc-gsTCUz hLsmvg"
+        >
+          <Button
+            color="primary"
+            disabled={false}
+            focus={false}
+            hover={false}
+            onClick={[MockFunction]}
+            tag="button"
+            theme={
+              Object {
+                "$btn-active-box-shadow": "inset 0 3px 5px rgba(0, 0, 0, 0.125)",
+                "$btn-block-spacing-y": ".5rem",
+                "$btn-border-radius": ".25rem",
+                "$btn-border-radius-lg": ".3rem",
+                "$btn-border-radius-sm": ".2rem",
+                "$btn-border-width": "1px",
+                "$btn-box-shadow": "inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075)",
+                "$btn-danger-bg": "#d9534f",
+                "$btn-danger-border": "#d9534f",
+                "$btn-danger-color": "#fff",
+                "$btn-focus-box-shadow": "0 0 0 2px rgba(2, 117, 216, 0.25)",
+                "$btn-info-bg": "#5bc0de",
+                "$btn-info-border": "#5bc0de",
+                "$btn-info-color": "#fff",
+                "$btn-line-height": "1.25",
+                "$btn-link-disabled-color": "#636c72",
+                "$btn-padding-x": "1rem",
+                "$btn-padding-x-lg": "1.5rem",
+                "$btn-padding-x-sm": ".5rem",
+                "$btn-padding-y": ".5rem",
+                "$btn-padding-y-lg": ".75rem",
+                "$btn-padding-y-sm": ".25rem",
+                "$btn-primary-bg": "#0275d8",
+                "$btn-primary-border": "#0275d8",
+                "$btn-primary-color": "#fff",
+                "$btn-secondary-bg": "#fff",
+                "$btn-secondary-border": "#ccc",
+                "$btn-secondary-color": "#292b2c",
+                "$btn-success-bg": "#5cb85c",
+                "$btn-success-border": "#5cb85c",
+                "$btn-success-color": "#fff",
+                "$btn-transition": "all .2s ease-in-out",
+                "$btn-warning-bg": "#f0ad4e",
+                "$btn-warning-border": "#f0ad4e",
+                "$btn-warning-color": "#fff",
+                "$enable-hover-media-query": true,
+                "$enable-rounded": true,
+                "$enable-shadows": false,
+                "$enable-transitions": true,
+              }
+            }
+          >
+            <ButtonUnstyled
+              className="Button-h8watj-0 csWZDI"
+              color="primary"
+              disabled={false}
+              focus={false}
+              hover={false}
+              onClick={[MockFunction]}
+              tag="button"
+              theme={
+                Object {
+                  "$btn-active-box-shadow": "inset 0 3px 5px rgba(0, 0, 0, 0.125)",
+                  "$btn-block-spacing-y": ".5rem",
+                  "$btn-border-radius": ".25rem",
+                  "$btn-border-radius-lg": ".3rem",
+                  "$btn-border-radius-sm": ".2rem",
+                  "$btn-border-width": "1px",
+                  "$btn-box-shadow": "inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075)",
+                  "$btn-danger-bg": "#d9534f",
+                  "$btn-danger-border": "#d9534f",
+                  "$btn-danger-color": "#fff",
+                  "$btn-focus-box-shadow": "0 0 0 2px rgba(2, 117, 216, 0.25)",
+                  "$btn-info-bg": "#5bc0de",
+                  "$btn-info-border": "#5bc0de",
+                  "$btn-info-color": "#fff",
+                  "$btn-line-height": "1.25",
+                  "$btn-link-disabled-color": "#636c72",
+                  "$btn-padding-x": "1rem",
+                  "$btn-padding-x-lg": "1.5rem",
+                  "$btn-padding-x-sm": ".5rem",
+                  "$btn-padding-y": ".5rem",
+                  "$btn-padding-y-lg": ".75rem",
+                  "$btn-padding-y-sm": ".25rem",
+                  "$btn-primary-bg": "#0275d8",
+                  "$btn-primary-border": "#0275d8",
+                  "$btn-primary-color": "#fff",
+                  "$btn-secondary-bg": "#fff",
+                  "$btn-secondary-border": "#ccc",
+                  "$btn-secondary-color": "#292b2c",
+                  "$btn-success-bg": "#5cb85c",
+                  "$btn-success-border": "#5cb85c",
+                  "$btn-success-color": "#fff",
+                  "$btn-transition": "all .2s ease-in-out",
+                  "$btn-warning-bg": "#f0ad4e",
+                  "$btn-warning-border": "#f0ad4e",
+                  "$btn-warning-color": "#fff",
+                  "$enable-hover-media-query": true,
+                  "$enable-rounded": true,
+                  "$enable-shadows": false,
+                  "$enable-transitions": true,
+                }
+              }
+            >
+              <button
+                className="Button-h8watj-0 csWZDI btn btn-primary"
+                onClick={[Function]}
+                type="button"
+              >
+                Next Page
+              </button>
+            </ButtonUnstyled>
+          </Button>
+        </div>
+      </styled.div>
+    </div>
+  </styled.div>
+</RepositoryListingPagination>
+`;
