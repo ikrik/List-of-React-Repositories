@@ -2,6 +2,8 @@ import * as React from 'react'
 import styled from 'styled-components'
 
 import ContentWrapper from '../common/views/ContentWrapper'
+import RepositoryListingProvider from '../features/repositoryListing/providers/RepositoryListingProvider'
+import RepositoryListingMainView from '../features/repositoryListing/view/RepositoryListingMainView'
 
 export const MainGridContainer = styled.div`
   min-width: 100%;
@@ -15,7 +17,7 @@ export const MainGridContainer = styled.div`
 const MainGrid = () => {
   return (
     <MainGridContainer>
-      <ContentWrapper />
+      <ContentWrapper>{React.cloneElement(<RepositoryListingProvider />, {}, <RepositoryListingMainView />)}</ContentWrapper>
     </MainGridContainer>
   )
 }
