@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+# List containing all React Repos in Github
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Introduction
 
-## Available Scripts
+In this project you can find all github repositories that have to do with React and its ecosystem.
+It is implemented by using **Create-React-App, Typescript, React Hooks & React Context API**.
 
-In the project directory, you can run:
+The data is being fetch by using **Graphql & Apollo** and code is being tested using **Jest & Enzyme**
 
-### `yarn start`
+### Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Once you have cloned the repo to your local file system Use the yarn package manager to install all dependecies.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+ yarn
+```
 
-### `yarn test`
+Αlternatively you can use npm.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+ npm install
+```
 
-### `yarn build`
+After installion you will need to create a `.env.local` file where you should add your github token as the example above.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+REACT_APP_GITHUB_TOKEN=<YOUR_TOKEN_HERE>
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For more information follow the steps in [Creating a personal access token for the command line](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token) to create a token.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Build and Test
 
-### `yarn eject`
+**Development:**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+  yarn start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Production:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+  yarn build
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Testing files:**
 
-## Learn More
+```
+  yarn test
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Pull requests are welcome.
